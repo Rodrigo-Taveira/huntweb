@@ -44,6 +44,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .product-list .actions button {
@@ -55,6 +56,10 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.product-list .actions p {
+    color: #da552f;
 }
 
 .product-list .actions button[disabled] {
